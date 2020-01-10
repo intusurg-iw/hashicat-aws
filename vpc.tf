@@ -3,7 +3,6 @@
 module "vpc" {
   source  = "app.terraform.io/intusurg-ops/vpc/aws"
   version = "2.21.0"
-
   database_subnet_assign_ipv6_address_on_creation = "false"
   elasticache_subnet_assign_ipv6_address_on_creation = "false"
   enable_classiclink = "false"
